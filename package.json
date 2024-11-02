@@ -1,0 +1,19 @@
+{
+  "name": "dash_multisig",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "genNewPK": "node src/gen_new_pk.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "@dashevo/bls": "^1.3.3",
+    "@dashevo/dashcore-lib": "^0.22.0",
+    "axios": "^1.7.7",
+    "bls-signatures": "^2.0.3",
+    "dash": "^4.4.1",
+    "dotenv": "^16.4.5"
+  }
+}
